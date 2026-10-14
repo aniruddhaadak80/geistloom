@@ -1,0 +1,17 @@
+{
+  "name": "@examples/oracle-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ask the Geistloom Oracle from the terminal.",
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geistloom/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

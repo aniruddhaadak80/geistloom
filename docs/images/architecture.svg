@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<title>Geistloom — system architecture poster</title>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#101826"/></pattern>
+<marker id="arrowTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#2dd4bf"/></marker>
+<marker id="arrowMist" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8fa3b8"/></marker></defs>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#070b12"/>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="url(#grid)" opacity="0.3"/>
+<circle cx="948.41" cy="517.87" r="1.22" fill="#e8f1f2" opacity="0.53"/><circle cx="795.17" cy="844.45" r="1.29" fill="#e8f1f2" opacity="0.8"/><circle cx="195.48" cy="888.57" r="1.01" fill="#e8f1f2" opacity="0.41"/><circle cx="869.65" cy="532.15" r="1.41" fill="#e8f1f2" opacity="0.35"/><circle cx="130.57" cy="733.14" r="1.61" fill="#e8f1f2" opacity="0.52"/><circle cx="1208.44" cy="214.79" r="1.53" fill="#e8f1f2" opacity="0.53"/><circle cx="1001.97" cy="238.5" r="1.42" fill="#e8f1f2" opacity="0.46"/><circle cx="50.8" cy="169.65" r="0.63" fill="#e8f1f2" opacity="0.45"/><circle cx="1484.45" cy="134.8" r="0.89" fill="#e8f1f2" opacity="0.4"/><circle cx="331.98" cy="472.87" r="0.62" fill="#e8f1f2" opacity="0.57"/><circle cx="821.36" cy="297.02" r="0.97" fill="#e8f1f2" opacity="0.84"/><circle cx="1391.77" cy="586.46" r="0.89" fill="#e8f1f2" opacity="0.66"/><circle cx="225.29" cy="546.17" r="1.56" fill="#e8f1f2" opacity="0.59"/><circle cx="1555.5" cy="321.74" r="1.12" fill="#e8f1f2" opacity="0.49"/><circle cx="628.89" cy="382.47" r="1.02" fill="#e8f1f2" opacity="0.57"/><circle cx="914.2" cy="648.62" r="1.43" fill="#e8f1f2" opacity="0.36"/><circle cx="84.88" cy="637.22" r="1.45" fill="#e8f1f2" opacity="0.85"/><circle cx="747.03" cy="147.83" r="1.21" fill="#e8f1f2" opacity="0.33"/><circle cx="530.76" cy="897.6" r="1.07" fill="#e8f1f2" opacity="0.82"/><circle cx="1013.76" cy="38.74" r="0.81" fill="#e8f1f2" opacity="0.51"/><circle cx="1549.09" cy="56.69" r="1.65" fill="#e8f1f2" opacity="0.23"/><circle cx="191.21" cy="415.53" r="0.92" fill="#e8f1f2" opacity="0.38"/><circle cx="1310.05" cy="674.31" r="1.21" fill="#e8f1f2" opacity="0.3"/><circle cx="1253.82" cy="594.32" r="1.53" fill="#e8f1f2" opacity="0.45"/><circle cx="411.56" cy="134.05" r="1.66" fill="#e8f1f2" opacity="0.43"/><circle cx="1071.28" cy="948.65" r="1.03" fill="#e8f1f2" opacity="0.58"/><circle cx="585.71" cy="323.14" r="0.7" fill="#e8f1f2" opacity="0.51"/><circle cx="1176.88" cy="880.18" r="1.56" fill="#e8f1f2" opacity="0.5"/><circle cx="1379.36" cy="635.49" r="1.09" fill="#e8f1f2" opacity="0.5"/><circle cx="1420.31" cy="15.83" r="0.9" fill="#e8f1f2" opacity="0.2"/><circle cx="983" cy="135.69" r="1.14" fill="#e8f1f2" opacity="0.38"/><circle cx="943.43" cy="513.52" r="1.57" fill="#e8f1f2" opacity="0.74"/><circle cx="894.41" cy="286" r="1.57" fill="#e8f1f2" opacity="0.19"/><circle cx="684.61" cy="48.06" r="1.43" fill="#e8f1f2" opacity="0.68"/><circle cx="1212.22" cy="22.68" r="0.78" fill="#e8f1f2" opacity="0.37"/><circle cx="1318.15" cy="302.52" r="1.65" fill="#e8f1f2" opacity="0.84"/><circle cx="462.99" cy="475.89" r="1.13" fill="#e8f1f2" opacity="0.64"/><circle cx="1091.29" cy="235.96" r="1.58" fill="#e8f1f2" opacity="0.28"/><circle cx="1462.94" cy="322.41" r="0.92" fill="#e8f1f2" opacity="0.73"/><circle cx="1313.84" cy="198.13" r="0.93" fill="#e8f1f2" opacity="0.52"/><circle cx="382.39" cy="892.52" r="0.76" fill="#e8f1f2" opacity="0.2"/><circle cx="1276.46" cy="58.15" r="1.3" fill="#e8f1f2" opacity="0.39"/><circle cx="1579.92" cy="142.93" r="0.93" fill="#e8f1f2" opacity="0.53"/><circle cx="541.47" cy="934.16" r="0.99" fill="#e8f1f2" opacity="0.29"/><circle cx="481.31" cy="660.96" r="1.63" fill="#e8f1f2" opacity="0.43"/><circle cx="486.39" cy="210.85" r="1.22" fill="#e8f1f2" opacity="0.48"/><circle cx="814.73" cy="90.72" r="1.15" fill="#e8f1f2" opacity="0.47"/><circle cx="1503.49" cy="604.29" r="1.38" fill="#e8f1f2" opacity="0.39"/><circle cx="990.16" cy="87.88" r="1.57" fill="#e8f1f2" opacity="0.75"/><circle cx="138.24" cy="208.56" r="1.56" fill="#e8f1f2" opacity="0.32"/><circle cx="224.99" cy="270.34" r="1.43" fill="#e8f1f2" opacity="0.68"/><circle cx="1527.27" cy="246.65" r="1.26" fill="#e8f1f2" opacity="0.27"/><circle cx="13.03" cy="475.03" r="1.09" fill="#e8f1f2" opacity="0.74"/><circle cx="1474.37" cy="346.99" r="0.9" fill="#e8f1f2" opacity="0.51"/><circle cx="814.44" cy="227.31" r="1.1" fill="#e8f1f2" opacity="0.8"/><circle cx="918.91" cy="194.31" r="1.2" fill="#e8f1f2" opacity="0.6"/><circle cx="559.49" cy="842.54" r="1.33" fill="#e8f1f2" opacity="0.21"/><circle cx="213.08" cy="208.67" r="1.66" fill="#e8f1f2" opacity="0.39"/><circle cx="1027.95" cy="316.07" r="0.84" fill="#e8f1f2" opacity="0.84"/><circle cx="1213.41" cy="646.12" r="1.2" fill="#e8f1f2" opacity="0.76"/><circle cx="537.05" cy="328.79" r="1.22" fill="#e8f1f2" opacity="0.45"/><circle cx="300.03" cy="796.77" r="0.97" fill="#e8f1f2" opacity="0.31"/><circle cx="712.03" cy="977.46" r="0.92" fill="#e8f1f2" opacity="0.66"/><circle cx="875.03" cy="971.37" r="1.29" fill="#e8f1f2" opacity="0.38"/><circle cx="43.81" cy="37.21" r="0.82" fill="#e8f1f2" opacity="0.28"/><circle cx="154.77" cy="311.26" r="1.66" fill="#e8f1f2" opacity="0.66"/><circle cx="747.1" cy="839.31" r="1.14" fill="#e8f1f2" opacity="0.25"/><circle cx="1269.86" cy="769.89" r="1.15" fill="#e8f1f2" opacity="0.62"/><circle cx="1310.97" cy="370.09" r="0.72" fill="#e8f1f2" opacity="0.66"/><circle cx="853.5" cy="859.71" r="1.34" fill="#e8f1f2" opacity="0.32"/>
+<text x="64" y="92" font-family="Space Grotesk, sans-serif" font-size="40" font-weight="600" fill="#e8f1f2" text-anchor="start">Geistloom — the frame, layer by layer</text>
+<text x="64" y="126" font-family="JetBrains Mono, monospace" font-size="14" font-weight="400" fill="#8fa3b8" text-anchor="start">deterministic world-frame · zero API keys · same input ⇒ same output · seed 4093</text>
+<text x="64" y="194" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#8b5cf6" text-anchor="start">01</text>
+<text x="108" y="196" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#e8f1f2" text-anchor="start">EDGE</text>
+<text x="64" y="220" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">the observer's browser</text>
+<line x1="64" y1="232" x2="328" y2="232" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<rect x="64" y="246" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="80" y="268" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<line x1="80" y1="280" x2="128" y2="280" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="butt"/>
+<circle cx="88" cy="274" r="1.8" fill="#8b5cf6"/>
+<circle cx="94" cy="274" r="1.8" fill="#8b5cf6"/>
+<circle cx="100" cy="274" r="1.8" fill="#8b5cf6"/>
+<line x1="88" y1="290" x2="120" y2="290" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.7"/>
+<line x1="88" y1="298" x2="112" y2="298" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.5"/>
+<line x1="88" y1="306" x2="116" y2="306" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.5"/>
+<text x="140" y="286" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">observer browser</text>
+<text x="140" y="306" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">Next.js 15 + React 19</text>
+<text x="140" y="322" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">static shell · landing · /oracle · /century</text><rect x="64" y="354" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="80" y="376" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<path d="M 88 412 L 100 396 L 108 406 L 114 398 L 120 412 Z" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="114" cy="392" r="3" fill="#8b5cf6"/>
+<text x="140" y="394" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">dynamic og:image</text>
+<text x="140" y="414" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">per-world social cards</text>
+<text x="140" y="430" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">deterministic render · /og route</text><rect x="64" y="462" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="80" y="484" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<path d="M 104 494 L 116.12 501 L 116.12 515 L 104 522 L 91.88 515 L 91.88 501 Z" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="104" y1="498" x2="104" y2="518" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="butt" opacity="0.7"/>
+<line x1="96" y1="504" x2="112" y2="512" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="butt" opacity="0.7"/>
+<line x1="112" y1="504" x2="96" y2="512" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="butt" opacity="0.7"/>
+<text x="140" y="502" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">the frame</text>
+<text x="140" y="522" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">one promise, everywhere</text>
+<text x="140" y="538" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">banner · logo · six product surfaces</text>
+<rect x="64" y="170" width="264" height="520" rx="16" fill="none" stroke="#101826" stroke-width="1.5" opacity="0.9"/><text x="368" y="194" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#8b5cf6" text-anchor="start">02</text>
+<text x="412" y="196" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#e8f1f2" text-anchor="start">apps/web</text>
+<text x="368" y="220" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">route handlers · thin adapters</text>
+<line x1="368" y1="232" x2="632" y2="232" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<rect x="368" y="246" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="384" y="268" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<rect x="392" y="16" width="6" height="6" rx="2" fill="#8b5cf6"/>
+<line x1="404" y1="19" x2="424" y2="19" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.7"/>
+<rect x="392" y="25" width="6" height="6" rx="2" fill="#8b5cf6"/>
+<line x1="404" y1="28" x2="424" y2="28" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.7"/>
+<rect x="392" y="34" width="6" height="6" rx="2" fill="#8b5cf6"/>
+<line x1="404" y1="37" x2="424" y2="37" stroke="#8b5cf6" stroke-width="2" stroke-linecap="butt" opacity="0.7"/>
+<text x="444" y="286" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">route handlers</text>
+<text x="444" y="306" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">/api/oracle · /api/century</text>
+<text x="444" y="322" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">zod in · zod out · no domain logic</text><rect x="368" y="354" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="384" y="376" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<path d="M 390 400 L 391.5 402.07 L 393 404 L 394.5 405.66 L 396 406.93 L 397.5 407.73 L 399 408 L 400.5 407.73 L 402 406.93 L 403.5 405.66 L 405 404 L 406.5 402.07 L 408 400 L 409.5 397.93 L 411 396 L 412.5 394.34 L 414 393.07 L 415.5 392.27 L 417 392 L 418.5 392.27 L 420 393.07 L 421.5 394.34 L 423 396 L 424.5 397.93 L 426 400" fill="none" stroke="#8b5cf6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="424" cy="400" r="2.5" fill="#8b5cf6"/>
+<text x="444" y="394" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">SSE consumer</text>
+<text x="444" y="414" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">worldboard live stream</text>
+<text x="444" y="430" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">EventSource · relay :9119</text><rect x="368" y="462" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="384" y="484" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<line x1="398" y1="492" x2="398" y2="524" stroke="#8b5cf6" stroke-width="1" stroke-linecap="butt" opacity="0.5"/>
+<line x1="408" y1="492" x2="408" y2="524" stroke="#8b5cf6" stroke-width="1" stroke-linecap="butt" opacity="0.5"/>
+<line x1="418" y1="492" x2="418" y2="524" stroke="#8b5cf6" stroke-width="1" stroke-linecap="butt" opacity="0.5"/>
+<line x1="392" y1="502" x2="424" y2="502" stroke="#8b5cf6" stroke-width="1" stroke-linecap="butt" opacity="0.5"/>
+<line x1="392" y1="514" x2="424" y2="514" stroke="#8b5cf6" stroke-width="1" stroke-linecap="butt" opacity="0.5"/>
+<rect x="402" y="508" width="10" height="10" rx="2" fill="#8b5cf6" opacity="0.85"/>
+<text x="444" y="502" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">render layer</text>
+<text x="444" y="522" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">server components</text>
+<text x="444" y="538" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">Tailwind v4 theme tokens</text>
+<rect x="368" y="170" width="264" height="520" rx="16" fill="none" stroke="#101826" stroke-width="1.5" opacity="0.9"/><text x="672" y="194" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#2dd4bf" text-anchor="start">03</text>
+<text x="716" y="196" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#e8f1f2" text-anchor="start">packages/core</text>
+<text x="672" y="220" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">pure functions · the determinism boundary</text>
+<line x1="672" y1="232" x2="936" y2="232" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<rect x="672" y="246" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="688" y="268" width="48" height="48" rx="10" fill="#070b12" stroke="#2dd4bf" stroke-width="1.5"/>
+<circle cx="700" cy="292" r="5" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<circle cx="712" cy="282" r="5" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<circle cx="724" cy="292" r="5" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<circle cx="712" cy="302" r="5" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<line x1="704" y1="288" x2="708" y2="285" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="butt"/>
+<line x1="716" y1="285" x2="720" y2="288" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="butt"/>
+<line x1="721" y1="296" x2="716" y2="299" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="butt"/>
+<line x1="708" y1="299" x2="704" y2="296" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="butt"/>
+<text x="748" y="286" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">OracleBrain</text>
+<text x="748" y="306" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">6-state FSM over the graph</text>
+<text x="748" y="322" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">perceive → reflect · seeded utility</text><rect x="672" y="354" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="688" y="376" width="48" height="48" rx="10" fill="#070b12" stroke="#2dd4bf" stroke-width="1.5"/>
+<path d="M 694 400 L 695.8 402.33 L 697.6 404.54 L 699.4 406.49 L 701.2 408.09 L 703 409.24 L 704.8 409.88 L 706.6 409.97 L 708.4 409.51 L 710.2 408.53 L 712 407.07 L 713.8 405.22 L 715.6 403.09 L 717.4 400.78 L 719.2 398.44 L 721 396.17 L 722.8 394.12 L 724.6 392.4 L 726.4 391.09 L 728.2 390.28 L 730 390" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="694" y1="414" x2="730" y2="414" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="butt" opacity="0.6"/>
+<text x="748" y="394" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">CenturyEngine</text>
+<text x="748" y="414" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">RK4 propagation · 200 yrs</text>
+<text x="748" y="430" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">UN WPP-anchored baseline 73.8 → 81.7</text><rect x="672" y="462" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="688" y="484" width="48" height="48" rx="10" fill="#070b12" stroke="#2dd4bf" stroke-width="1.5"/>
+<path d="M 702 492 L 704.83 494 L 706.99 496 L 707.97 498 L 707.54 500 L 705.81 502 L 703.17 504 L 700.26 506 L 697.76 508 L 696.26 510 L 696.12 512 L 697.36 514 L 699.7 516 L 702.59 518 L 705.33 520 L 707.29 522 L 708 524" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M 722 492 L 719.17 494 L 717.01 496 L 716.03 498 L 716.46 500 L 718.19 502 L 720.83 504 L 723.74 506 L 726.24 508 L 727.74 510 L 727.88 512 L 726.64 514 L 724.3 516 L 721.41 518 L 718.67 520 L 716.71 522 L 716 524" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="707.54" y1="500" x2="716.46" y2="500" stroke="#2dd4bf" stroke-width="1" stroke-linecap="butt" opacity="0.6"/>
+<line x1="697.76" y1="508" x2="726.24" y2="508" stroke="#2dd4bf" stroke-width="1" stroke-linecap="butt" opacity="0.6"/>
+<line x1="699.7" y1="516" x2="724.3" y2="516" stroke="#2dd4bf" stroke-width="1" stroke-linecap="butt" opacity="0.6"/>
+<text x="748" y="502" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">GeneDriveEngine</text>
+<text x="748" y="522" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">three-allele recursion</text>
+<text x="748" y="538" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">homing · resistance · containment</text><rect x="672" y="570" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="688" y="592" width="48" height="48" rx="10" fill="#070b12" stroke="#2dd4bf" stroke-width="1.5"/>
+<circle cx="702" cy="606" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="702" cy="616" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="702" cy="626" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="712" cy="606" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="712" cy="616" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="712" cy="626" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="722" cy="606" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="722" cy="616" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<circle cx="722" cy="626" r="1.6" fill="#2dd4bf" opacity="0.8"/>
+<text x="748" y="610" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">domain tables</text>
+<text x="748" y="630" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">12 hallmarks · 30 interventions</text>
+<text x="748" y="646" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">8 clocks · 6 scenarios · citation-backed</text>
+<rect x="672" y="170" width="264" height="520" rx="16" fill="none" stroke="#101826" stroke-width="1.5" opacity="0.9"/><text x="976" y="194" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#8b5cf6" text-anchor="start">04</text>
+<text x="1020" y="196" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#e8f1f2" text-anchor="start">polyglot services</text>
+<text x="976" y="220" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">each earns its place · all optional</text>
+<line x1="976" y1="232" x2="1240" y2="232" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<rect x="976" y="246" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="992" y="268" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="1016" y="298" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600" fill="#8b5cf6" text-anchor="middle">Py</text>
+<text x="1052" y="286" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">services/oracle</text>
+<text x="1052" y="306" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">Python 3.12 · FastAPI :8787</text>
+<text x="1052" y="322" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">oracle brain service · optional</text><rect x="976" y="354" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="992" y="376" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="1016" y="406" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600" fill="#8b5cf6" text-anchor="middle">Rs</text>
+<text x="1052" y="394" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">crates/loom-engine</text>
+<text x="1052" y="414" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">Rust → wasm</text>
+<text x="1052" y="430" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">hot loops · RK4 · gene-drive recursion</text><rect x="976" y="462" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="992" y="484" width="48" height="48" rx="10" fill="#070b12" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="1016" y="514" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600" fill="#8b5cf6" text-anchor="middle">Go</text>
+<text x="1052" y="502" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">services/relay</text>
+<text x="1052" y="522" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">Go :9119</text>
+<text x="1052" y="538" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">SSE fan-out · structured telemetry</text>
+<rect x="976" y="170" width="264" height="520" rx="16" fill="none" stroke="#101826" stroke-width="1.5" opacity="0.9"/><text x="1280" y="194" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#f59e0b" text-anchor="start">05</text>
+<text x="1324" y="196" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#e8f1f2" text-anchor="start">packages/seed</text>
+<text x="1280" y="220" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">offline datasets · zero config</text>
+<line x1="1280" y1="232" x2="1544" y2="232" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<rect x="1280" y="246" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="1296" y="268" width="48" height="48" rx="10" fill="#070b12" stroke="#f59e0b" stroke-width="1.5"/>
+<ellipse cx="1320" cy="282" rx="12" ry="5" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<line x1="1308" y1="282" x2="1308" y2="302" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="1332" y1="282" x2="1332" y2="302" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<ellipse cx="1320" cy="302" rx="12" ry="5" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<text x="1356" y="286" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">seed 4093</text>
+<text x="1356" y="306" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">offline JSON worlds</text>
+<text x="1356" y="322" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">generated · committed · replayable</text><rect x="1280" y="354" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="1296" y="376" width="48" height="48" rx="10" fill="#070b12" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="1320" cy="400" r="9" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="1320" cy="400" r="3" fill="#f59e0b"/>
+<line x1="1320" y1="384" x2="1320" y2="391" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="1320" y1="409" x2="1320" y2="416" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="1304" y1="400" x2="1311" y2="400" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<line x1="1329" y1="400" x2="1336" y2="400" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="1356" y="394" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">UN WPP anchors</text>
+<text x="1356" y="414" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">life expectancy baselines</text>
+<text x="1356" y="430" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">73.8 y (2026) → 81.7 y (2100)</text><rect x="1280" y="462" width="264" height="92" rx="12" fill="#101826"/>
+<rect x="1296" y="484" width="48" height="48" rx="10" fill="#070b12" stroke="#f59e0b" stroke-width="1.5"/>
+<rect x="1304" y="494" width="12" height="10" rx="3" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<rect x="1324" y="494" width="12" height="10" rx="3" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<rect x="1314" y="512" width="12" height="10" rx="3" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+<line x1="1310" y1="504" x2="1318" y2="512" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="butt"/>
+<line x1="1330" y1="504" x2="1322" y2="512" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="butt"/>
+<text x="1356" y="502" font-family="Space Grotesk, sans-serif" font-size="14.5" font-weight="600" fill="#e8f1f2" text-anchor="start">knowledge graph</text>
+<text x="1356" y="522" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">hallmark → intervention edges</text>
+<text x="1356" y="538" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">mechanism · measurement · evidence</text>
+<rect x="1280" y="170" width="264" height="520" rx="16" fill="none" stroke="#101826" stroke-width="1.5" opacity="0.9"/>
+<line x1="334" y1="470" x2="360" y2="470" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="butt"/>
+<path d="M 352 465 L 360 470 L 352 475 z" fill="#2dd4bf"/>
+<rect x="303" y="430" width="88" height="22" rx="11" fill="#0b111c" stroke="#2dd4bf" stroke-width="1" opacity="0.95"/>
+<text x="347" y="445" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">HTTP</text>
+<line x1="334" y1="560" x2="360" y2="560" stroke="#8fa3b8" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="2 6" opacity="0.7"/>
+<path d="M 352 555 L 360 560 L 352 565 z" fill="#8fa3b8" opacity="0.7"/><line x1="638" y1="470" x2="664" y2="470" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="butt"/>
+<path d="M 656 465 L 664 470 L 656 475 z" fill="#2dd4bf"/>
+<rect x="607" y="430" width="88" height="22" rx="11" fill="#0b111c" stroke="#2dd4bf" stroke-width="1" opacity="0.95"/>
+<text x="651" y="445" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">direct import</text>
+<line x1="638" y1="560" x2="664" y2="560" stroke="#8fa3b8" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="2 6" opacity="0.7"/>
+<path d="M 656 555 L 664 560 L 656 565 z" fill="#8fa3b8" opacity="0.7"/><line x1="942" y1="470" x2="968" y2="470" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="butt"/>
+<path d="M 960 465 L 968 470 L 960 475 z" fill="#2dd4bf"/>
+<rect x="911" y="430" width="88" height="22" rx="11" fill="#0b111c" stroke="#2dd4bf" stroke-width="1" opacity="0.95"/>
+<text x="955" y="445" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">HTTP + wasm</text>
+<line x1="942" y1="560" x2="968" y2="560" stroke="#8fa3b8" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="2 6" opacity="0.7"/>
+<path d="M 960 555 L 968 560 L 960 565 z" fill="#8fa3b8" opacity="0.7"/><line x1="1246" y1="470" x2="1272" y2="470" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="butt"/>
+<path d="M 1264 465 L 1272 470 L 1264 475 z" fill="#2dd4bf"/>
+<rect x="1215" y="430" width="88" height="22" rx="11" fill="#0b111c" stroke="#2dd4bf" stroke-width="1" opacity="0.95"/>
+<text x="1259" y="445" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">direct import</text>
+<line x1="1246" y1="560" x2="1272" y2="560" stroke="#8fa3b8" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="2 6" opacity="0.7"/>
+<path d="M 1264 555 L 1272 560 L 1264 565 z" fill="#8fa3b8" opacity="0.7"/>
+<rect x="654" y="152" width="300" height="556" rx="22" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="8 8" opacity="0.65"/>
+<rect x="654" y="714" width="300" height="30" rx="15" fill="#2dd4bf" opacity="0.12"/>
+<text x="804" y="734" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#2dd4bf" text-anchor="middle">determinism boundary — same input ⇒ same output</text>
+<text x="64" y="800" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#14b8a6" text-anchor="start" letter-spacing="2">LEGEND</text>
+<line x1="64" y1="824" x2="92" y2="824" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="butt"/>
+<text x="100" y="828" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">runtime call</text>
+<line x1="220" y1="824" x2="248" y2="824" stroke="#8fa3b8" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="2 6"/>
+<text x="256" y="828" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">data flow · offline</text>
+<line x1="440" y1="824" x2="468" y2="824" stroke="#2dd4bf" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8 8"/>
+<text x="476" y="828" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start">determinism boundary</text>
+<text x="64" y="856" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.85">every arrow is a real interface: HTTP between services, direct import inside the frame, wasm for hot loops.</text>
+<text x="64" y="884" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#14b8a6" text-anchor="start" letter-spacing="2">PALETTE</text>
+<rect x="64" y="896" width="24" height="24" rx="6" fill="#070b12" stroke="#101826" stroke-width="1"/>
+<text x="96" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">abyss</text>
+<text x="96" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#070b12</text><rect x="232" y="896" width="24" height="24" rx="6" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="264" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">abyss-2</text>
+<text x="264" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#0b111c</text><rect x="400" y="896" width="24" height="24" rx="6" fill="#101826" stroke="#101826" stroke-width="1"/>
+<text x="432" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">charcoal</text>
+<text x="432" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#101826</text><rect x="568" y="896" width="24" height="24" rx="6" fill="#2dd4bf" stroke="#101826" stroke-width="1"/>
+<text x="600" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">bio-teal</text>
+<text x="600" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#2dd4bf</text><rect x="736" y="896" width="24" height="24" rx="6" fill="#14b8a6" stroke="#101826" stroke-width="1"/>
+<text x="768" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">bio-teal-dim</text>
+<text x="768" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#14b8a6</text><rect x="904" y="896" width="24" height="24" rx="6" fill="#8b5cf6" stroke="#101826" stroke-width="1"/>
+<text x="936" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">genome-violet</text>
+<text x="936" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#8b5cf6</text><rect x="1072" y="896" width="24" height="24" rx="6" fill="#f59e0b" stroke="#101826" stroke-width="1"/>
+<text x="1104" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">helix-amber</text>
+<text x="1104" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#f59e0b</text><rect x="1240" y="896" width="24" height="24" rx="6" fill="#e8f1f2" stroke="#101826" stroke-width="1"/>
+<text x="1272" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">star-white</text>
+<text x="1272" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#e8f1f2</text><rect x="1408" y="896" width="24" height="24" rx="6" fill="#8fa3b8" stroke="#101826" stroke-width="1"/>
+<text x="1440" y="908" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#e8f1f2" text-anchor="start">mist</text>
+<text x="1440" y="922" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">#8fa3b8</text>
+</svg>

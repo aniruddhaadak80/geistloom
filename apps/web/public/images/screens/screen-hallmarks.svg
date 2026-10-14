@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<title>Geistloom — Hallmarks Atlas mockup</title>
+<defs><clipPath id="contentClip"><rect x="24" y="76" width="1152" height="660" rx="0"/></clipPath>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#101826"/></pattern></defs>
+<rect x="24" y="34" width="1152" height="712" rx="18" fill="#070b12" opacity="0.7"/>
+<rect x="24" y="24" width="1152" height="712" rx="18" fill="#0b111c" stroke="#101826" stroke-width="2"/>
+<circle cx="56" cy="50" r="6" fill="#f59e0b"/>
+<circle cx="80" cy="50" r="6" fill="#8b5cf6"/>
+<circle cx="104" cy="50" r="6" fill="#2dd4bf"/>
+<rect x="136" y="38" width="460" height="24" rx="12" fill="#101826"/>
+<text x="156" y="54" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#2dd4bf" text-anchor="start">geistloom.local/hallmarks</text>
+<text x="1144" y="54" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="end">local · deterministic · seed 4093</text>
+<line x1="24" y1="76" x2="1176" y2="76" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<g clip-path="url(#contentClip)">
+<rect x="24" y="76" width="1152" height="660" rx="0" fill="url(#grid)" opacity="0.25"/>
+<text x="48" y="116" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#e8f1f2" text-anchor="start">Hallmarks Atlas</text>
+<text x="48" y="140" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#8fa3b8" text-anchor="start">the 12 hallmarks of aging · López-Otín et al., Cell (2023) · three tiers · every mechanism measured</text>
+<rect x="48" y="156" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="68" y="186" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Genomic instability</text>
+<rect x="300" y="170" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="300" y="170" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="342" y="184" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="68" y="206" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">NUCLEAR LAYER</text>
+<text x="68" y="228" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">DNA damage outruns repair: replication errors,</text>
+<text x="68" y="244" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">oxidative hits and transposons accumulate as</text>
+<text x="68" y="264" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · WGS mutational burden · γH2AX foci</text>
+<rect x="68" y="268" width="88.8" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="112.4" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">base editing</text>
+<rect x="164.8" y="268" width="130.1" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="229.85" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">DNA repair boosters</text><rect x="416" y="156" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="436" y="186" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Telomere attrition</text>
+<rect x="668" y="170" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="668" y="170" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="710" y="184" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="436" y="206" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">NUCLEAR LAYER</text>
+<text x="436" y="228" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">The end-replication problem shortens caps each</text>
+<text x="436" y="244" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">division until cells hit the Hayflick limit.</text>
+<text x="436" y="264" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · qPCR telomere ratio · Flow-FISH</text>
+<rect x="436" y="268" width="88.8" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="480.4" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">TERT therapy</text>
+<rect x="532.8" y="268" width="136" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="600.8" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">hyper-long telomeres</text><rect x="784" y="156" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="804" y="186" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Epigenetic alterations</text>
+<rect x="1036" y="170" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="1036" y="170" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="1078" y="184" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="804" y="206" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">EPIGENOMIC LAYER</text>
+<text x="804" y="228" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Methylation entropy and histone marks drift; clocks</text>
+<text x="804" y="244" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">quantify the divergence from youthful state.</text>
+<text x="804" y="264" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · Illumina EPIC arrays · DunedinPACE</text>
+<rect x="804" y="268" width="118.3" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="863.15" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">OSK reprogramming</text>
+<rect x="930.3" y="268" width="124.2" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="992.4" y="279" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">epigenetic editing</text><rect x="48" y="302" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="68" y="332" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Loss of proteostasis</text>
+<rect x="300" y="316" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="300" y="316" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="342" y="330" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="68" y="352" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">PROTEOMIC LAYER</text>
+<text x="68" y="374" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Chaperones and the unfolded-protein response decline;</text>
+<text x="68" y="390" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">amyloid and tau aggregates outrun clearance.</text>
+<text x="68" y="410" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · Proteasome assays · aggregate proteomics</text>
+<rect x="68" y="414" width="124.2" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="130.1" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">chaperone inducers</text>
+<rect x="200.2" y="414" width="130.1" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="265.25" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">autophagy enhancers</text><rect x="416" y="302" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="436" y="332" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Disabled macroautophagy</text>
+<rect x="668" y="316" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="668" y="316" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="710" y="330" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="436" y="352" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">ORGANELLAR LAYER</text>
+<text x="436" y="374" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Autophagosome formation and lysosomal acidification</text>
+<text x="436" y="390" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">decline; damaged mitochondria persist.</text>
+<text x="436" y="410" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · LC3-II/I ratio · p62 turnover assay</text>
+<rect x="436" y="414" width="112.4" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="492.2" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">spermidine class</text>
+<rect x="556.4" y="414" width="65.2" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="589" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">rapalogs</text><rect x="784" y="302" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="804" y="332" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Deregulated nutrient sensing</text>
+<rect x="1036" y="316" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="1036" y="316" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="1078" y="330" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="804" y="352" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">SYSTEMIC LAYER</text>
+<text x="804" y="374" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Chronic nutrient excess keeps mTORC1 high and</text>
+<text x="804" y="390" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">AMPK/SIRT low; the axes drift together.</text>
+<text x="804" y="410" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · p-S6K1 · NAD+/NADH · IGF-1</text>
+<rect x="804" y="414" width="65.2" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="836.6" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">rapalogs</text>
+<rect x="877.2" y="414" width="71.1" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="912.75" y="425" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">metformin</text><rect x="48" y="448" width="352" height="132" rx="12" fill="#101826" stroke="#f59e0b" stroke-width="1.5" opacity="0.96"/>
+<text x="68" y="478" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Mitochondrial dysfunction</text>
+<rect x="300" y="462" width="84" height="20" rx="10" fill="#f59e0b" opacity="0.14"/>
+<rect x="300" y="462" width="84" height="20" rx="10" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+<text x="342" y="476" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#f59e0b" text-anchor="middle" letter-spacing="1">PRIMARY</text>
+<text x="68" y="498" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">ORGANELLAR LAYER</text>
+<text x="68" y="520" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">mtDNA mutations accumulate, ETC efficiency drops, and</text>
+<text x="68" y="536" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">mitophagy fails to clear the damage.</text>
+<text x="68" y="556" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · Oxygen consumption · mtDNA copy number</text>
+<rect x="68" y="560" width="82.9" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="109.45" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">SS-31 class</text>
+<rect x="158.9" y="560" width="106.5" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="212.15" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">NAD+ precursors</text><rect x="416" y="448" width="352" height="132" rx="12" fill="#101826" stroke="#8b5cf6" stroke-width="1.5" opacity="0.96"/>
+<text x="436" y="478" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Cellular senescence</text>
+<rect x="668" y="462" width="84" height="20" rx="10" fill="#8b5cf6" opacity="0.14"/>
+<rect x="668" y="462" width="84" height="20" rx="10" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+<text x="710" y="476" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8b5cf6" text-anchor="middle" letter-spacing="1">ANTAGONISTIC</text>
+<text x="436" y="498" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">CELLULAR LAYER</text>
+<text x="436" y="520" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Damaged cells arrest and secrete IL-6, IL-8 and MMPs —</text>
+<text x="436" y="536" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">the SASP that poisons surrounding niches.</text>
+<text x="436" y="556" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · p16INK4a · SA-β-gal · SASP panel</text>
+<rect x="436" y="560" width="100.6" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="486.3" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">D+Q senolytics</text>
+<rect x="544.6" y="560" width="59.3" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="574.25" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">fisetin</text><rect x="784" y="448" width="352" height="132" rx="12" fill="#101826" stroke="#8b5cf6" stroke-width="1.5" opacity="0.96"/>
+<text x="804" y="478" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Stem cell exhaustion</text>
+<rect x="1036" y="462" width="84" height="20" rx="10" fill="#8b5cf6" opacity="0.14"/>
+<rect x="1036" y="462" width="84" height="20" rx="10" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+<text x="1078" y="476" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8b5cf6" text-anchor="middle" letter-spacing="1">ANTAGONISTIC</text>
+<text x="804" y="498" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">CELLULAR LAYER</text>
+<text x="804" y="520" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">HSC myeloid skewing and satellite-cell loss shrink the</text>
+<text x="804" y="536" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">regenerative pool; niches deteriorate.</text>
+<text x="804" y="556" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · CFU assays · niche single-cell atlases</text>
+<rect x="804" y="560" width="130.1" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="869.05" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">stem cell therapies</text>
+<rect x="942.1" y="560" width="124.2" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="1004.2" y="571" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">niche rejuvenation</text><rect x="48" y="594" width="352" height="132" rx="12" fill="#101826" stroke="#2dd4bf" stroke-width="1.5" opacity="0.96"/>
+<text x="68" y="624" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Altered intercellular communication</text>
+<rect x="300" y="608" width="84" height="20" rx="10" fill="#2dd4bf" opacity="0.14"/>
+<rect x="300" y="608" width="84" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-width="1" opacity="0.6"/>
+<text x="342" y="622" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#2dd4bf" text-anchor="middle" letter-spacing="1">INTEGRATIVE</text>
+<text x="68" y="644" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">INTERCELLULAR LAYER</text>
+<text x="68" y="666" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Inflammaging and SASP corrupt endocrine and immune</text>
+<text x="68" y="682" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">signaling between tissues.</text>
+<text x="68" y="702" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · Cytokine panels · inflammaging scores</text>
+<rect x="68" y="706" width="106.5" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="121.25" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">plasma exchange</text>
+<rect x="182.5" y="706" width="94.7" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="229.85" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">SASP blockers</text><rect x="416" y="594" width="352" height="132" rx="12" fill="#101826" stroke="#2dd4bf" stroke-width="1.5" opacity="0.96"/>
+<text x="436" y="624" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Chronic inflammation</text>
+<rect x="668" y="608" width="84" height="20" rx="10" fill="#2dd4bf" opacity="0.14"/>
+<rect x="668" y="608" width="84" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-width="1" opacity="0.6"/>
+<text x="710" y="622" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#2dd4bf" text-anchor="middle" letter-spacing="1">INTEGRATIVE</text>
+<text x="436" y="644" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">SYSTEMIC LAYER</text>
+<text x="436" y="666" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">NF-κB tone rises with age — a sterile, low-grade fire</text>
+<text x="436" y="682" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">that predicts multimorbidity.</text>
+<text x="436" y="702" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · IL-6 · CRP · TNF-α · inflammaging clocks</text>
+<rect x="436" y="706" width="100.6" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="486.3" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">JAK inhibitors</text>
+<rect x="544.6" y="706" width="100.6" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="594.9" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">senolytics D+Q</text><rect x="784" y="594" width="352" height="132" rx="12" fill="#101826" stroke="#2dd4bf" stroke-width="1.5" opacity="0.96"/>
+<text x="804" y="624" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Dysbiosis</text>
+<rect x="1036" y="608" width="84" height="20" rx="10" fill="#2dd4bf" opacity="0.14"/>
+<rect x="1036" y="608" width="84" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-width="1" opacity="0.6"/>
+<text x="1078" y="622" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#2dd4bf" text-anchor="middle" letter-spacing="1">INTEGRATIVE</text>
+<text x="804" y="644" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1.5" opacity="0.85">SYSTEMIC LAYER</text>
+<text x="804" y="666" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">Butyrate-producers fade, pathobionts rise, and</text>
+<text x="804" y="682" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#8fa3b8" text-anchor="start">gut-barrier leak fuels systemic inflammation.</text>
+<text x="804" y="702" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#14b8a6" text-anchor="start">measured · 16S metagenomics · SCFA levels</text>
+<rect x="804" y="706" width="35.7" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="821.85" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">FMT</text>
+<rect x="847.7" y="706" width="118.3" height="15" rx="7.5" fill="#0b111c" stroke="#101826" stroke-width="1"/>
+<text x="906.85" y="717" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="middle">pre-/post-biotics</text>
+</g>
+</svg>

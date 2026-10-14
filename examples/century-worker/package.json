@@ -1,0 +1,17 @@
+{
+  "name": "@examples/century-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Run the Century Engine in pure compute and archive the world as JSON.",
+  "scripts": {
+    "start": "bun run src/worker.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geistloom/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

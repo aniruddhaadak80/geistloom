@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.up.railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "providers": ["bun"]
+    }
+  },
+  "deploy": {
+    "startCommand": "bun run start",
+    "healthcheckPath": "/healthz",
+    "restartPolicyType": "on_failure",
+    "numReplicas": 1
+  }
+}

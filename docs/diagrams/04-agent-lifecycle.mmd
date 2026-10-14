@@ -1,0 +1,45 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#2dd4bf',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+stateDiagram-v2
+  [*] --> perceive
+  perceive --> decompose : vocabulary matched
+  decompose --> research : causal layers split
+  research --> synthesize : measurement stack pulled
+  synthesize --> plan : hypothesis fused
+  plan --> reflect : phases sequenced
+  reflect --> perceive : audit pass complete
+  reflect --> [*] : trace committed
+
+  note right of perceive
+    Scores every knowledge node
+    with state-dependent utility:
+    perceive prizes data & world
+  end note
+  note right of decompose
+    Hallmarks win here:
+    which node sits at the top
+    of the causal graph?
+  end note
+  note right of research
+    Clocks win here: what would
+    a reversal look like in data?
+  end note
+  note right of synthesize
+    Interventions win: mechanism
+    + measurement → hypothesis
+  end note
+  note right of plan
+    Interventions win: years,
+    confidence, failure prices
+  end note
+  note left of reflect
+    The audit pass: is every
+    edge in the DAG checkable?
+    The reasoning is the product.
+  end note

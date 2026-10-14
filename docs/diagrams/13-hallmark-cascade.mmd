@@ -1,0 +1,53 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#f59e0b',
+  'lineColor': '#2dd4bf',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+flowchart TD
+  subgraph BIO["The biology — 12 hallmarks, three tiers"]
+    direction TB
+    P1[Genomic instability]
+    P2[Telomere attrition]
+    P3[Epigenetic alterations]
+    P4[Loss of proteostasis]
+    P5[Disabled macroautophagy]
+    P6[Deregulated nutrient sensing]
+    P7[Mitochondrial dysfunction]
+    A1[Cellular senescence]
+    A2[Stem cell exhaustion]
+    I1[Altered intercellular communication]
+    I2[Chronic inflammation]
+    I3[Dysbiosis]
+  end
+  subgraph RESPONSE["The response — intervention classes"]
+    G[Gene editing: base · prime · epigenetic]
+    T[Gene therapy: OSK · TERT]
+    S[Small molecules: senolytics · rapalogs · NAD+]
+    C[Cell & protocol: stem cells · FMT · TPE]
+  end
+  subgraph MEASURE["The yardsticks"]
+    CK[Epigenetic clocks: Horvath → GrimAge → DunedinPACE]
+    LE[Life expectancy: UN WPP 73.8 → 81.7]
+  end
+  subgraph FRAME["The frame"]
+    OR[Oracle: plans the research]
+    CE[Century Engine: propagates 200 years]
+    TM[Time machine: replays every state]
+  end
+
+  P1 & P2 & P3 --> G
+  P3 --> T
+  P4 & P5 & P6 & P7 --> S
+  A1 --> S
+  A2 --> C
+  I1 & I2 & I3 --> S
+  S --> CK
+  G --> CK
+  T --> CK
+  CK --> LE
+  OR --> CE
+  CE --> TM
+  LE --> CE

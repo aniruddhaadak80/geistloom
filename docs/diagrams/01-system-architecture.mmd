@@ -1,0 +1,52 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#2dd4bf',
+  'secondaryColor': '#101826',
+  'tertiaryColor': '#8b5cf6',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+flowchart LR
+  subgraph USER["The Observer"]
+    BROWSER[Browser · the frame]
+  end
+  subgraph WEB["apps/web — Next.js 15"]
+    LANDING[Landing]
+    ORACLE_ROUTE[/oracle]
+    CENTURY_ROUTE[/century]
+    WORLDBOARD[/worldboard]
+    OG[/og image route]
+  end
+  subgraph CORE["packages/core — pure domain logic"]
+    ORACLE_BRAIN[Oracle FSM brain]
+    CENTURY_ENG[Century Engine RK4]
+    GENE_DRIVE[Gene-drive recursion]
+    DOMAIN[Hallmarks · Interventions · Clocks]
+  end
+  subgraph POLYGLOT["Polyglot services"]
+    PY[Python FastAPI · Oracle service :8787]
+    RS[Rust wasm · loom-engine]
+    GO[Go relay · SSE :9119]
+  end
+  subgraph DATA["packages/seed — offline datasets"]
+    SEED[(seed 4093 JSON worlds)]
+  end
+
+  BROWSER --> LANDING
+  BROWSER --> ORACLE_ROUTE
+  BROWSER --> CENTURY_ROUTE
+  BROWSER --> WORLDBOARD
+  ORACLE_ROUTE --> ORACLE_BRAIN
+  CENTURY_ROUTE --> CENTURY_ENG
+  WORLDBOARD --> GO
+  ORACLE_BRAIN --> DOMAIN
+  CENTURY_ENG --> DOMAIN
+  CENTURY_ENG --> GENE_DRIVE
+  ORACLE_ROUTE -. optional .-> PY
+  CENTURY_ENG -. heavy compute .-> RS
+  SEED --> ORACLE_BRAIN
+  SEED --> CENTURY_ENG
+  GO --> BROWSER
+  OG --> CORE

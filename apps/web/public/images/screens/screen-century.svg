@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<title>Geistloom — Century Engine mockup</title>
+<defs><clipPath id="contentClip"><rect x="24" y="76" width="1152" height="660" rx="0"/></clipPath>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#101826"/></pattern></defs>
+<rect x="24" y="34" width="1152" height="712" rx="18" fill="#070b12" opacity="0.7"/>
+<rect x="24" y="24" width="1152" height="712" rx="18" fill="#0b111c" stroke="#101826" stroke-width="2"/>
+<circle cx="56" cy="50" r="6" fill="#f59e0b"/>
+<circle cx="80" cy="50" r="6" fill="#8b5cf6"/>
+<circle cx="104" cy="50" r="6" fill="#2dd4bf"/>
+<rect x="136" y="38" width="460" height="24" rx="12" fill="#101826"/>
+<text x="156" y="54" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#2dd4bf" text-anchor="start">geistloom.local/century</text>
+<text x="1144" y="54" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="end">local · deterministic · seed 4093</text>
+<line x1="24" y1="76" x2="1176" y2="76" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<g clip-path="url(#contentClip)">
+<rect x="24" y="76" width="1152" height="660" rx="0" fill="url(#grid)" opacity="0.25"/>
+<text x="48" y="116" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#e8f1f2" text-anchor="start">Century Engine</text>
+<text x="48" y="140" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#8fa3b8" text-anchor="start">200-year world simulation · UN WPP-anchored baseline · 30 interventions · RK4 propagation</text>
+<rect x="48" y="160" width="272" height="92" rx="12" fill="#101826"/>
+<text x="68" y="188" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1">LIFE EXPECTANCY · 2100</text>
+<text x="68" y="228" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="600" fill="#e8f1f2" text-anchor="start">104.8 y</text>
+<text x="68" y="244" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#2dd4bf" text-anchor="start">+23.1 vs baseline</text><rect x="336" y="160" width="272" height="92" rx="12" fill="#101826"/>
+<text x="356" y="188" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1">ESCAPE VELOCITY</text>
+<text x="356" y="228" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="600" fill="#e8f1f2" text-anchor="start">2041</text>
+<text x="356" y="244" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#2dd4bf" text-anchor="start">LEV detected · +1.2 y/yr</text><rect x="624" y="160" width="272" height="92" rx="12" fill="#101826"/>
+<text x="644" y="188" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1">PEAK POPULATION</text>
+<text x="644" y="228" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="600" fill="#e8f1f2" text-anchor="start">9.9 B</text>
+<text x="644" y="244" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#2dd4bf" text-anchor="start">peak year 2140</text><rect x="912" y="160" width="272" height="92" rx="12" fill="#101826"/>
+<text x="932" y="188" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" letter-spacing="1">BIOSPHERE · 2226</text>
+<text x="932" y="228" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="600" fill="#e8f1f2" text-anchor="start">71 / 100</text>
+<text x="932" y="244" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#2dd4bf" text-anchor="start">+5 vs baseline</text>
+<rect x="48" y="264" width="320" height="448" rx="12" fill="#101826"/>
+<text x="64" y="292" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#14b8a6" text-anchor="start" letter-spacing="2">INTERVENTIONS</text>
+<text x="352" y="292" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="end">5 enabled</text>
+<text x="64" y="318" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Dasatinib + Quercetin</text>
+<text x="64" y="336" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">small-molecule · clinical</text>
+<rect x="304" y="306" width="44" height="22" rx="11" fill="#14b8a6"/>
+<circle cx="334" cy="317" r="7" fill="#2dd4bf"/><text x="64" y="370" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Rapalogs (mTOR)</text>
+<text x="64" y="388" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">small-molecule · clinical</text>
+<rect x="304" y="358" width="44" height="22" rx="11" fill="#14b8a6"/>
+<circle cx="334" cy="369" r="7" fill="#2dd4bf"/><text x="64" y="422" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Partial reprogramming (OSK)</text>
+<text x="64" y="440" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">gene-therapy · preclinical</text>
+<rect x="304" y="410" width="44" height="22" rx="11" fill="#14b8a6"/>
+<circle cx="334" cy="421" r="7" fill="#2dd4bf"/><text x="64" y="474" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">NAD+ precursors</text>
+<text x="64" y="492" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">small-molecule · clinical</text>
+<rect x="304" y="462" width="44" height="22" rx="11" fill="#14b8a6"/>
+<circle cx="334" cy="473" r="7" fill="#2dd4bf"/><text x="64" y="526" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Metformin</text>
+<text x="64" y="544" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">small-molecule · clinical</text>
+<rect x="304" y="514" width="44" height="22" rx="11" fill="#14b8a6"/>
+<circle cx="334" cy="525" r="7" fill="#2dd4bf"/><text x="64" y="578" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Telomerase therapy</text>
+<text x="64" y="596" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">gene-therapy · preclinical</text>
+<rect x="304" y="566" width="44" height="22" rx="11" fill="#070b12"/>
+<circle cx="318" cy="577" r="7" fill="#8fa3b8"/><text x="64" y="630" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Fisetin</text>
+<text x="64" y="648" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">small-molecule · clinical</text>
+<rect x="304" y="618" width="44" height="22" rx="11" fill="#070b12"/>
+<circle cx="318" cy="629" r="7" fill="#8fa3b8"/><text x="64" y="682" font-family="Space Grotesk, sans-serif" font-size="13.5" font-weight="500" fill="#e8f1f2" text-anchor="start">Plasma exchange</text>
+<text x="64" y="700" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="400" fill="#8fa3b8" text-anchor="start">protocol · clinical</text>
+<rect x="304" y="670" width="44" height="22" rx="11" fill="#070b12"/>
+<circle cx="318" cy="681" r="7" fill="#8fa3b8"/>
+<rect x="400" y="264" width="752" height="448" rx="12" fill="#101826"/>
+<text x="424" y="292" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="600" fill="#e8f1f2" text-anchor="start">life expectancy — baseline vs intervention stack</text>
+<line x1="880" y1="288" x2="908" y2="288" stroke="#8fa3b8" stroke-width="2.5" stroke-linecap="butt" stroke-dasharray="5 5"/>
+<text x="916" y="292" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">baseline (UN WPP)</text>
+<line x1="1040" y1="288" x2="1068" y2="288" stroke="#2dd4bf" stroke-width="3" stroke-linecap="butt"/>
+<text x="1076" y="292" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">intervention stack</text>
+<line x1="448" y1="288" x2="448" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="448" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2026</text><line x1="516" y1="288" x2="516" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="516" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2046</text><line x1="584" y1="288" x2="584" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="584" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2066</text><line x1="652" y1="288" x2="652" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="652" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2086</text><line x1="720" y1="288" x2="720" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="720" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2106</text><line x1="788" y1="288" x2="788" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="788" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2126</text><line x1="856" y1="288" x2="856" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="856" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2146</text><line x1="924" y1="288" x2="924" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="924" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2166</text><line x1="992" y1="288" x2="992" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="992" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2186</text><line x1="1060" y1="288" x2="1060" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="1060" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2206</text><line x1="1128" y1="288" x2="1128" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="1128" y="668" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="middle">2226</text><line x1="448" y1="648" x2="1120" y2="648" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="440" y="651" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="end">60</text><line x1="448" y1="553" x2="1120" y2="553" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="440" y="556" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="end">80</text><line x1="448" y1="458" x2="1120" y2="458" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="440" y="461" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="end">100</text><line x1="448" y1="363" x2="1120" y2="363" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="440" y="366" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="end">120</text><line x1="448" y1="268" x2="1120" y2="268" stroke="#101826" stroke-width="1" stroke-linecap="butt" opacity="0.7"/><text x="440" y="271" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="end">140</text>
+<path d="M 448 582.45 L 529.6 557.28 L 614.6 494.1 L 699.6 435.2 L 869.6 343.05 L 1128 270.85 L 1128 648 L 448 648 Z" fill="#2dd4bf" stroke-linecap="round" stroke-linejoin="round" opacity="0.07"/>
+<path d="M 448 582.45 C 461.6 580.39, 501.83 574.45, 529.6 570.1 C 557.37 565.75, 586.27 560.52, 614.6 556.33 C 642.93 552.13, 657.1 548.25, 699.6 544.92 C 742.1 541.6, 798.2 539.46, 869.6 536.38 C 941 533.29, 1084.93 528.06, 1128 526.4" fill="none" stroke="#8fa3b8" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 448 582.45 C 461.6 578.25, 501.83 572, 529.6 557.28 C 557.37 542.55, 586.27 514.45, 614.6 494.1 C 642.93 473.75, 657.1 460.38, 699.6 435.2 C 742.1 410.03, 798.2 370.44, 869.6 343.05 C 941 315.66, 1084.93 282.88, 1128 270.85" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.12"/>
+<path d="M 448 582.45 C 461.6 578.25, 501.83 572, 529.6 557.28 C 557.37 542.55, 586.27 514.45, 614.6 494.1 C 642.93 473.75, 657.1 460.38, 699.6 435.2 C 742.1 410.03, 798.2 370.44, 869.6 343.05 C 941 315.66, 1084.93 282.88, 1128 270.85" fill="none" stroke="#2dd4bf" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="448" cy="582.45" r="3.5" fill="#2dd4bf"/>
+<circle cx="529.6" cy="557.28" r="3.5" fill="#2dd4bf"/>
+<circle cx="614.6" cy="494.1" r="3.5" fill="#2dd4bf"/>
+<circle cx="699.6" cy="435.2" r="3.5" fill="#2dd4bf"/>
+<circle cx="869.6" cy="343.05" r="3.5" fill="#2dd4bf"/>
+<circle cx="1128" cy="270.85" r="3.5" fill="#2dd4bf"/>
+<circle cx="448" cy="582.45" r="3" fill="#8fa3b8"/>
+<circle cx="529.6" cy="570.1" r="3" fill="#8fa3b8"/>
+<circle cx="614.6" cy="556.33" r="3" fill="#8fa3b8"/>
+<circle cx="699.6" cy="544.92" r="3" fill="#8fa3b8"/>
+<circle cx="869.6" cy="536.38" r="3" fill="#8fa3b8"/>
+<circle cx="1128" cy="526.4" r="3" fill="#8fa3b8"/>
+<line x1="499" y1="288" x2="499" y2="648" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="4 6" opacity="0.8"/>
+<circle cx="499" cy="564.4" r="5" fill="#f59e0b" stroke="#0b111c" stroke-width="2"/>
+<text x="509" y="308" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#f59e0b" text-anchor="start">escape velocity 2041</text>
+<text x="784" y="700" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="middle">year</text>
+<text x="424" y="468" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="middle" transform="rotate(-90 424 468)">life expectancy (years)</text>
+</g>
+</svg>

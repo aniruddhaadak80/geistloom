@@ -1,0 +1,105 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#8b5cf6',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+erDiagram
+  HALLMARK ||--o{ INTERVENTION : "targeted_by"
+  HALLMARK ||--o{ CLOCK : "measured_by"
+  INTERVENTION ||--o{ WORLD_STATE : "shifts"
+  SCENARIO ||--o{ SIMULATION : "parameterizes"
+  SIMULATION ||--o{ WORLD_STATE : "emits"
+  WORLD_STATE ||--o{ EVENT : "streamed_as"
+  MILESTONE }o--|| TIMELINE : "anchors"
+  ORACLE_PLAN ||--o{ PLAN_PHASE : "contains"
+  PLAN_PHASE ||--o{ REASONING_STEP : "justified_by"
+
+  HALLMARK {
+    string id PK
+    string name
+    string category
+    string layer
+    string mechanism
+    string measuredBy
+  }
+  INTERVENTION {
+    string id PK
+    string name
+    string klass
+    string evidence
+    float agingRateReduction
+    int adoptionYear
+    float adoptionSpeed
+    float riskMultiplier
+  }
+  CLOCK {
+    string id PK
+    string name
+    int year
+    string generation
+    int cpgSites
+    int trainingSamples
+  }
+  WORLD_STATE {
+    float year
+    float population
+    float lifeExpectancy
+    float healthspan
+    float agingRate
+    float biosphereHealth
+    float gdpPerCapita
+    float aiCapability
+    float knowledgeStock
+    float interventionCoverage
+  }
+  SCENARIO {
+    string id PK
+    string name
+    float weight
+    float knowledgeMultiplier
+    float adoptionSpeedMultiplier
+  }
+  SIMULATION {
+    int seed PK
+    string scenarioId FK
+    string[] interventionIds
+    float startYear
+    float endYear
+  }
+  EVENT {
+    string runId
+    float year
+    float lifeExpectancy
+    float population
+    float biosphereHealth
+    datetime at
+  }
+  MILESTONE {
+    string id PK
+    int year
+    string title
+    string kind
+    float confidence
+  }
+  ORACLE_PLAN {
+    string id PK
+    string prompt
+    string domain
+    int seed
+    string model
+  }
+  PLAN_PHASE {
+    string id PK
+    string name
+    int years
+    float confidence
+  }
+  REASONING_STEP {
+    string id PK
+    string label
+    string rationale
+    float confidence
+  }

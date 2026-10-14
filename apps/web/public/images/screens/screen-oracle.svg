@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<title>Geistloom — Oracle console mockup</title>
+<defs><clipPath id="contentClip"><rect x="24" y="76" width="1152" height="660" rx="0"/></clipPath>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#101826"/></pattern></defs>
+<rect x="24" y="34" width="1152" height="712" rx="18" fill="#070b12" opacity="0.7"/>
+<rect x="24" y="24" width="1152" height="712" rx="18" fill="#0b111c" stroke="#101826" stroke-width="2"/>
+<circle cx="56" cy="50" r="6" fill="#f59e0b"/>
+<circle cx="80" cy="50" r="6" fill="#8b5cf6"/>
+<circle cx="104" cy="50" r="6" fill="#2dd4bf"/>
+<rect x="136" y="38" width="460" height="24" rx="12" fill="#101826"/>
+<text x="156" y="54" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#2dd4bf" text-anchor="start">geistloom.local/oracle</text>
+<text x="1144" y="54" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#8fa3b8" text-anchor="end">local · deterministic · seed 4093</text>
+<line x1="24" y1="76" x2="1176" y2="76" stroke="#101826" stroke-width="1.5" stroke-linecap="butt"/>
+<g clip-path="url(#contentClip)">
+<rect x="24" y="76" width="1152" height="660" rx="0" fill="url(#grid)" opacity="0.25"/>
+<text x="48" y="116" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#e8f1f2" text-anchor="start">The Oracle</text>
+<text x="48" y="140" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#8fa3b8" text-anchor="start">deterministic research intelligence · zero API keys · auditable line by line</text>
+<text x="48" y="172" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#14b8a6" text-anchor="start" letter-spacing="2">PROMPT</text>
+<rect x="48" y="180" width="320" height="84" rx="12" fill="#101826" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="72" y="218" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="600" fill="#e8f1f2" text-anchor="start">solve aging</text>
+<rect x="190" y="202" width="10" height="22" rx="0" fill="#2dd4bf"/><animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+<text x="48" y="292" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start">model</text>
+<text x="48" y="310" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#e8f1f2" text-anchor="start">geistloom-oracle-1</text>
+<text x="48" y="334" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start">seed</text>
+<text x="48" y="352" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#e8f1f2" text-anchor="start">4093 · derived from prompt</text>
+<text x="48" y="376" font-family="JetBrains Mono, monospace" font-size="10" font-weight="400" fill="#8fa3b8" text-anchor="start">domain</text>
+<text x="48" y="394" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="400" fill="#e8f1f2" text-anchor="start">longevity &amp; aging</text>
+<rect x="48" y="416" width="320" height="48" rx="12" fill="#2dd4bf"/>
+<text x="208" y="446" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#070b12" text-anchor="middle">ask the oracle</text>
+<text x="48" y="500" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400" fill="#14b8a6" text-anchor="start" letter-spacing="2">WHY IT IS TRUSTWORTHY</text>
+<circle cx="56" cy="520" r="8" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<path d="M 52 520 l 3 3 l 6 -6" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="524" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="500" fill="#8fa3b8" text-anchor="start">zero API keys — nothing leaves this machine</text>
+<circle cx="56" cy="548" r="8" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<path d="M 52 548 l 3 3 l 6 -6" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="552" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="500" fill="#8fa3b8" text-anchor="start">same prompt + seed ⇒ byte-identical plan</text>
+<circle cx="56" cy="576" r="8" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<path d="M 52 576 l 3 3 l 6 -6" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="580" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="500" fill="#8fa3b8" text-anchor="start">every reasoning edge is checkable</text>
+<rect x="48" y="604" width="320" height="88" rx="12" fill="#101826"/>
+<text x="64" y="632" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#2dd4bf" text-anchor="start">21</text>
+<text x="120" y="632" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">year program</text>
+<text x="64" y="660" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#2dd4bf" text-anchor="start">37%</text>
+<text x="124" y="660" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">theoretical cut</text>
+<text x="216" y="632" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#8b5cf6" text-anchor="start">3/12</text>
+<text x="216" y="660" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start">hallmarks · 22% prior</text>
+<text x="400" y="116" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="600" fill="#e8f1f2" text-anchor="start">Audit-Ready Program for Cellular Senescence</text>
+<text x="400" y="140" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#8fa3b8" text-anchor="start">domain longevity &amp; aging · seed 4093 · scenario The Bio-Dividend (22% prior)</text>
+<rect x="400" y="168" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="168" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="198" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">01</text>
+<text x="470" y="198" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Map the problem</text>
+<text x="424" y="220" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">2 yrs · milestone:</text>
+<text x="424" y="236" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Reference cohort (n≥1,000) profiled on cellular senescence with published baselines</text>
+<rect x="980" y="192" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="192" width="128.8" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="198" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.92</text>
+<text x="1128" y="214" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text><rect x="400" y="256" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="256" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="286" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">02</text>
+<text x="470" y="286" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Decode the mechanism</text>
+<text x="424" y="308" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">3 yrs · milestone:</text>
+<text x="424" y="324" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Causal model validated in two independent model systems; every DAG edge confirmed</text>
+<rect x="980" y="280" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="280" width="113.4" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="286" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.81</text>
+<text x="1128" y="302" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text><rect x="400" y="344" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="344" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="374" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">03</text>
+<text x="470" y="374" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Design the intervention</text>
+<text x="424" y="396" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">3 yrs · milestone:</text>
+<text x="424" y="412" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Lead candidate with clinical-grade evidence; off-target profile within bounds</text>
+<rect x="980" y="368" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="368" width="98" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="374" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.70</text>
+<text x="1128" y="390" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text><rect x="400" y="432" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="432" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="462" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">04</text>
+<text x="470" y="462" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Prove it in models</text>
+<text x="424" y="484" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">4 yrs · milestone:</text>
+<text x="424" y="500" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Reproducible effect in two species; effect size ≥ 0.24 of theoretical max, p&lt;0.01</text>
+<rect x="980" y="456" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="456" width="82.6" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="462" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.59</text>
+<text x="1128" y="478" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text><rect x="400" y="520" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="520" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="550" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">05</text>
+<text x="470" y="550" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Open the trial</text>
+<text x="424" y="572" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">3 yrs · milestone:</text>
+<text x="424" y="588" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Phase I/IIa readout: safety clean, DunedinPACE pace moves with dose response</text>
+<rect x="980" y="544" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="544" width="67.2" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="550" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.48</text>
+<text x="1128" y="566" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text><rect x="400" y="608" width="752" height="80" rx="12" fill="#101826"/>
+<rect x="400" y="608" width="4" height="80" rx="2" fill="#2dd4bf"/>
+<text x="424" y="638" font-family="JetBrains Mono, monospace" font-size="13" font-weight="400" fill="#14b8a6" text-anchor="start">06</text>
+<text x="470" y="638" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600" fill="#e8f1f2" text-anchor="start">Ship it to the world</text>
+<text x="424" y="660" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="400" fill="#8fa3b8" text-anchor="start" opacity="0.8">6 yrs · milestone:</text>
+<text x="424" y="676" font-family="Space Grotesk, sans-serif" font-size="11.5" font-weight="500" fill="#8fa3b8" text-anchor="start">Approved in ≥3 major jurisdictions with a published access covenant</text>
+<rect x="980" y="632" width="140" height="8" rx="4" fill="#070b12"/>
+<rect x="980" y="632" width="51.8" height="8" rx="4" fill="#2dd4bf"/>
+<text x="1128" y="638" font-family="JetBrains Mono, monospace" font-size="12" font-weight="400" fill="#e8f1f2" text-anchor="end">0.37</text>
+<text x="1128" y="654" font-family="JetBrains Mono, monospace" font-size="9" font-weight="400" fill="#8fa3b8" text-anchor="end" opacity="0.8">confidence</text>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+# Geistloom on Render
+# Import this file: render.com/dashboard/blueprints/new → "Use existing repo"
+services:
+  - type: web
+    name: geistloom-web
+    env: bun
+    buildCommand: "bun install --frozen-lockfile && bun run build"
+    startCommand: "bun run start"
+    envVars:
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://geistloom.onrender.com
+      - key: NEXT_PUBLIC_SIM_SEED
+        value: "4093"
+    healthCheckPath: /healthz
+    plan: starter
+  - type: web
+    name: geistloom-oracle
+    env: python
+    buildCommand: "pip install -e ."
+    startCommand: "uvicorn oracle_service.main:app --host 0.0.0.0 --port 8787"
+    envVars:
+      - key: ORACLE_DETERMINISTIC
+        value: "1"
+    healthCheckPath: /healthz
+  - type: web
+    name: geistloom-relay
+    env: go
+    buildCommand: "go build -o relay ."
+    startCommand: "./relay --addr :9119"
+    healthCheckPath: /healthz

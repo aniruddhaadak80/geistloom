@@ -1,0 +1,19 @@
+{
+  "name": "@examples/replay-webhook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HTTP receiver that replays a forked world from any posted WorldState.",
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geistloom/core": "workspace:*",
+    "@geistloom/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "typescript": "^5.8.3"
+  }
+}

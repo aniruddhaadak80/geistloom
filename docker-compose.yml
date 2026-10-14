@@ -1,0 +1,36 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_APP_URL: http://localhost:3000
+      NEXT_PUBLIC_SIM_SEED: "4093"
+      ORACLE_SERVICE_URL: http://oracle:8787
+    depends_on:
+      - oracle
+      - relay
+    restart: unless-stopped
+
+  oracle:
+    build:
+      context: ./services/oracle
+      dockerfile: Dockerfile
+    ports:
+      - "8787:8787"
+    environment:
+      ORACLE_DETERMINISTIC: "1"
+      ORACLE_SEED: "4093"
+    restart: unless-stopped
+
+  relay:
+    build:
+      context: ./services/relay
+      dockerfile: Dockerfile
+    ports:
+      - "9119:9119"
+    environment:
+      RELAY_ADDR: ":9119"
+    restart: unless-stopped

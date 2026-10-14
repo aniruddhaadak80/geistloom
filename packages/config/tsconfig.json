@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@geistloom/core": ["../core/src/index.ts"],
+      "@geistloom/seed": ["../seed/src/index.ts"],
+      "@geistloom/sdk": ["../sdk/src/index.ts"],
+      "@geistloom/ui": ["../ui/src/index.ts"]
+    }
+  }
+}

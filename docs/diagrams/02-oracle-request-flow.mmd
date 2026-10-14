@@ -1,0 +1,40 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#8b5cf6',
+  'lineColor': '#2dd4bf',
+  'signalColor': '#f59e0b',
+  'actorBkg': '#101826',
+  'actorBorder': '#2dd4bf',
+  'actorTextColor': '#e8f1f2',
+  'noteBkgColor': '#0b111c',
+  'noteTextColor': '#8fa3b8',
+  'noteBorderColor': '#8b5cf6',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+sequenceDiagram
+  autonumber
+  actor U as Observer
+  participant UI as Oracle page
+  participant API as /api/oracle route
+  participant CORE as @geistloom/core
+  participant BRAIN as OracleBrain FSM
+  participant KG as Knowledge graph
+
+  U->>UI: prompt "solve aging"
+  UI->>API: POST {prompt, seed?}
+  API->>CORE: askOracle(query)
+  CORE->>BRAIN: new OracleBrain(seed, focus)
+  loop 6-state FSM cycle
+    BRAIN->>BRAIN: score all nodes (utility fn)
+    BRAIN->>KG: read hallmark/intervention/clock nodes
+    KG-->>BRAIN: node + utilityBias
+    BRAIN-->>BRAIN: pick argmax + seeded bell noise
+    BRAIN->>BRAIN: emit BrainTrace line
+  end
+  CORE->>CORE: assemble 6 phases + reasoning DAG
+  CORE-->>API: OraclePlan (zod-validated)
+  API-->>UI: JSON plan
+  UI->>U: phased plan + explorable reasoning traces
+  Note over U,KG: deterministic — same prompt+seed ⇒ byte-identical plan

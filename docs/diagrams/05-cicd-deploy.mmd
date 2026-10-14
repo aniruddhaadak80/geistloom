@@ -1,0 +1,33 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#2dd4bf',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+flowchart LR
+  DEV[Developer pushes] --> GH[GitHub]
+  GH --> CI{{CI workflow}}
+  CI --> G1[typecheck]
+  CI --> G2[biome lint]
+  CI --> G3[vitest unit]
+  CI --> G4[cargo test]
+  CI --> G5[pytest]
+  CI --> G6[go test]
+  CI --> G7[loc guardrail]
+  G1 --> ALL{all gates green?}
+  G2 --> ALL
+  G3 --> ALL
+  G4 --> ALL
+  G5 --> ALL
+  G6 --> ALL
+  G7 --> ALL
+  ALL -->|no| FAIL[red check · block merge]
+  ALL -->|yes| E2E[Playwright e2e]
+  E2E --> BUILD[next build]
+  BUILD -->|main| VERCEL[Vercel auto-deploy --prod]
+  BUILD -->|tag v*| RELEASE[GitHub Release]
+  VERCEL --> LIVE[(live URL)]
+  LIVE --> SOCIAL[og:image + social preview]
+  FAIL --> DEV

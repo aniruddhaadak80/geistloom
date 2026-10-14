@@ -1,0 +1,86 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#8b5cf6',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+classDiagram
+  class OracleBrain {
+    -state: BrainState
+    -rng: () => number
+    -graph: KnowledgeNode[]
+    +currentState: BrainState
+    +step(): BrainTrace
+    +runCycle(): BrainTrace[]
+    +run(cycles: number): BrainTrace[]
+  }
+  class BrainState {
+    <<enumeration>>
+    perceive
+    decompose
+    research
+    synthesize
+    plan
+    reflect
+  }
+  class KnowledgeNode {
+    +id: string
+    +label: string
+    +kind: NodeKind
+    +utilityBias: number
+  }
+  class BrainTrace {
+    +step: number
+    +state: BrainState
+    +thought: string
+    +nodeId: string
+    +utilityScore: number
+  }
+  class Oracle {
+    +askOracle(query: OracleQuery): OraclePlan
+    +askOracleAllScenarios(prompt: string): OraclePlan[]
+  }
+  class OraclePlan {
+    +id: string
+    +prompt: string
+    +domain: string
+    +title: string
+    +summary: string
+    +phases: PlanPhase[]
+    +reasoningDag: Dag
+    +keyNumbers: KeyNumber[]
+    +citations: string[]
+    +scenario: string
+    +seed: number
+    +model: string
+  }
+  class PlanPhase {
+    +id: string
+    +name: string
+    +years: number
+    +description: string
+    +milestone: string
+    +confidence: number
+    +reasoning: ReasoningStep[]
+  }
+  class CenturyEngine {
+    +simulateCentury(config: EngineConfig): SimulationResult
+    +stateAt(states: WorldState[], year: number): WorldState
+    +forkFrom(from: WorldState, config): SimulationResult
+    +baselineLifeExpectancy(year: number): number
+  }
+  class GeneDriveEngine {
+    +simulateGeneDrive(params): GeneDriveState[]
+    +timeToFrequency(params, threshold): number
+    +resistanceTakeover(params): number
+  }
+  Oracle --> OraclePlan
+  Oracle --> OracleBrain : drives
+  OracleBrain --> BrainState
+  OracleBrain --> KnowledgeNode
+  OracleBrain --> BrainTrace
+  OraclePlan --> PlanPhase
+  CenturyEngine --> WorldState
+  GeneDriveEngine --> AlleleFrequencies

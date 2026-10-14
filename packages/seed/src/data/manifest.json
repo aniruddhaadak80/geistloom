@@ -1,0 +1,6 @@
+{
+  "seed": 4093,
+  "generatedAt": "2026-10-11",
+  "generator": "packages/seed/seed.ts",
+  "entries": ["world-series.json", "wpp-anchors.json", "leap-wave8.json"]
+}

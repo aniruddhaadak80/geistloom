@@ -1,0 +1,47 @@
+---
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#0b111c',
+  'primaryTextColor': '#e8f1f2',
+  'primaryBorderColor': '#2dd4bf',
+  'lineColor': '#2dd4bf',
+  'fontFamily': 'JetBrains Mono, monospace'
+}}%%
+flowchart TB
+  subgraph EDGE["Edge — the observer's browser"]
+    UI[Next.js static shell]
+    OG[Dynamic og:image]
+  end
+  subgraph VERCEL["Vercel / Docker / Fly / Render"]
+    WEB[web container :3000]
+    NEXT_API[Route handlers]
+  end
+  subgraph SELF_HOST["Self-hosted polyglot tier"]
+    ORACLE[oracle :8787 FastAPI]
+    RELAY[relay :9119 Go SSE]
+    RUST[loom-engine wasm]
+  end
+  subgraph DATA["Offline data tier"]
+    SEED[(packages/seed<br/>seed 4093)]
+  end
+  subgraph OPS["Observability"]
+    LOGS[structured logs]
+    TRACES[OTel stubs]
+    HEALTH[/healthz on every service]
+  end
+
+  UI --> WEB
+  OG --> WEB
+  WEB --> NEXT_API
+  NEXT_API --> CORE[@geistloom/core]
+  NEXT_API -. optional .-> ORACLE
+  NEXT_API --> RUST
+  RELAY --> UI
+  SEED --> CORE
+  SEED --> ORACLE
+  WEB --> LOGS
+  ORACLE --> LOGS
+  RELAY --> LOGS
+  CORE --> TRACES
+  WEB --> HEALTH
+  ORACLE --> HEALTH
+  RELAY --> HEALTH

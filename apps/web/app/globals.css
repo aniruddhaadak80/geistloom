@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-abyss: #070b12;
+  --color-abyss-2: #0b111c;
+  --color-charcoal: #101826;
+  --color-bio-teal: #2dd4bf;
+  --color-bio-teal-dim: #14b8a6;
+  --color-genome-violet: #8b5cf6;
+  --color-genome-violet-dim: #7c3aed;
+  --color-helix-amber: #f59e0b;
+  --color-star-white: #e8f1f2;
+  --color-mist: #8fa3b8;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-abyss);
+  color: var(--color-star-white);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-bio-teal) 70%, transparent);
+  color: var(--color-abyss);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
