@@ -23,3 +23,5 @@ Cargo.lock
 playwright-report
 test-results
 examples/*/runs/
+
+.vercel
