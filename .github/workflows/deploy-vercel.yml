@@ -20,7 +20,7 @@ jobs:
           bun-version: "1.3"
       - run: bun install --frozen-lockfile
       - run: bun run build
-      - uses: amondnet/vercel-action@v25
+      - uses: amondnet/vercel-action@v42
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
