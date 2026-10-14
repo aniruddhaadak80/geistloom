@@ -1,0 +1,16 @@
+# Vercel upload allowlist hygiene — build outputs are rebuilt remotely.
+node_modules
+.next
+.turbo
+target
+dist
+build
+coverage
+__pycache__
+.pytest_cache
+.venv
+venv
+test-results
+playwright-report
+*.log
+examples/*/runs/
