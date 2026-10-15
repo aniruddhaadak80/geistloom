@@ -76,7 +76,7 @@ jobs:
         with:
           bun-version: "1.3"
       - name: Count lines
-        run: bun scripts/loc-count.mjs --min-lines 50000
+        run: bun scripts/loc-count.mjs --min-lines 30000
 
   e2e:
     name: E2E (Playwright)

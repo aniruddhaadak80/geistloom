@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { getScenario, getIntervention, simulateCentury, stateAt } from "@geistloom/core";
+import { getIntervention, getScenario, simulateCentury, stateAt } from "@geistloom/core";
 
 /**
  * Geistloom Century Worker — the Century Engine with no server in sight.
@@ -77,7 +77,7 @@ const result = simulateCentury({
 
 const summary = result.summary;
 process.stdout.write(
-  `run ${result.states[0] ? "run-" + args.seed.toString(16) : "?"} — ${result.states.length} states\n`,
+  `run ${result.states[0] ? `run-${args.seed.toString(16)}` : "?"} — ${result.states.length} states\n`,
 );
 process.stdout.write(
   `  end life expectancy : ${summary.endState.lifeExpectancy.toFixed(1)} y ` +
