@@ -18,7 +18,7 @@ jobs:
         run: |
           echo "## Geistloom ${{ github.ref_name }}" >> $GITHUB_OUTPUT
           echo "Deterministic superintelligence simulation — the world-frame where aging gets solved." >> $GITHUB_OUTPUT
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         with:
           generate_release_notes: true
           draft: false
