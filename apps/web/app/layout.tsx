@@ -1,25 +1,45 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import { AppShell } from "@/components/app-shell";
 import { QueryProvider } from "@/components/query-provider";
 import "./globals.css";
 
-const display = Space_Grotesk({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+/**
+ * The three families are self-hosted, not fetched from Google at build time.
+ *
+ * `next/font/google` downloads the font CSS while the app builds, which makes
+ * the build depend on a network call that has nothing to do with the change
+ * being built. When that call fails the build dies with `An error occurred in
+ * next/font` and a null-pointer inside webpack - a failure that looks like a
+ * code error and is not one. It has already reddened a dependabot PR here
+ * whose diff touched nothing to do with fonts.
+ *
+ * These are the same families, the same latin subset, served as the variable
+ * fonts the Google API would have handed the build anyway, committed under
+ * `app/fonts` with their OFL licences next to them.
+ */
+const display = localFont({
+  src: "./fonts/SpaceGrotesk-latin.woff2",
+  weight: "300 700",
+  style: "normal",
+  display: "swap",
   variable: "--font-display",
 });
 
-const body = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const body = localFont({
+  src: "./fonts/Inter-latin.woff2",
+  weight: "100 900",
+  style: "normal",
+  display: "swap",
   variable: "--font-body",
 });
 
-const mono = JetBrains_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+const mono = localFont({
+  src: "./fonts/JetBrainsMono-latin.woff2",
+  weight: "100 800",
+  style: "normal",
+  display: "swap",
   variable: "--font-mono",
 });
 
