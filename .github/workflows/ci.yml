@@ -48,6 +48,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          # The Oracle's dependencies live in services/oracle, not at the root,
+          # so the cache key is taken from that pyproject.
+          cache: pip
+          cache-dependency-path: services/oracle/pyproject.toml
       - name: Install
         working-directory: services/oracle
         run: python -m pip install -e ".[dev]"
