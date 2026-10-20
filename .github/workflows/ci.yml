@@ -18,7 +18,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: "1.3"
+          bun-version-file: .bun-version
+      # The download cache, not node_modules: a restored cache still resolves
+      # every package through bun.lock, it only skips the network.
+      - name: Cache Bun's install cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
       - name: Install
         run: bun install --frozen-lockfile
       - name: Typecheck
@@ -74,7 +83,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: "1.3"
+          bun-version-file: .bun-version
       - name: Count lines
         run: bun scripts/loc-count.mjs --min-lines 30000
 
@@ -86,7 +95,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: "1.3"
+          bun-version-file: .bun-version
+      - name: Cache Bun's install cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
       - run: bun install --frozen-lockfile
       - run: bun run build
       - run: bunx playwright install --with-deps chromium
