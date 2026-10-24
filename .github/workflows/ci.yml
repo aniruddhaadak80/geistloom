@@ -22,7 +22,7 @@ jobs:
       # The download cache, not node_modules: a restored cache still resolves
       # every package through bun.lock, it only skips the network.
       - name: Cache Bun's install cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.bun/install/cache
           key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
@@ -101,7 +101,7 @@ jobs:
         with:
           bun-version-file: .bun-version
       - name: Cache Bun's install cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.bun/install/cache
           key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
