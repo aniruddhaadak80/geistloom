@@ -3,7 +3,7 @@
 # Stage 1: install + build the monorepo (web + packages).
 # Stage 2: standalone Next.js runtime, non-root, healthcheck on /healthz.
 
-FROM oven/bun:1.3 AS deps
+FROM oven/bun:1.4 AS deps
 WORKDIR /app
 COPY package.json bun.lockb ./
 COPY apps apps
@@ -18,7 +18,7 @@ COPY . .
 ENV GEISTLOOM_STANDALONE=1
 RUN bun run build
 
-FROM oven/bun:1.3 AS runner
+FROM oven/bun:1.4 AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_PUBLIC_APP_URL=http://localhost:3000
