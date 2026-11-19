@@ -28,7 +28,19 @@ jobs:
         run: |
           bunx vercel pull --yes --environment=production --token "$VERCEL_TOKEN"
           bunx vercel build --prod --token "$VERCEL_TOKEN"
-          bunx vercel deploy --prebuilt --prod --token "$VERCEL_TOKEN"
+          # A team over its Vercel fair-use limit is blocked at the account
+          # level: the deploy exits 1 with "exceeded our fair use limits and
+          # has been blocked" even though the build is fine. Report that as a
+          # warning and retry on the next push; any other failure still fails.
+          set +e
+          bunx vercel deploy --prebuilt --prod --token "$VERCEL_TOKEN" 2>&1 | tee deploy.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ] && grep -qiE "fair use limits|has been blocked" deploy.log; then
+            echo "::warning::Vercel blocked this team at the account level (fair-use limit); the build is fine and the deploy will be retried on the next push"
+            exit 0
+          fi
+          exit "$status"
       - name: Verify the live URL responds
         run: |
           URL="https://geistloom.vercel.app"
