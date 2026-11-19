@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "The world-frame where superintelligence solves aging — and everything else.",
+  "description": "The world-frame where superintelligence solves aging \u2014 and everything else.",
   "workspaces": [
     "apps/*",
     "packages/*",
@@ -27,7 +27,7 @@
     "@types/node": "^22.15.0",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.11"
   },
   "packageManager": "bun@1.3.14",
   "engines": {
